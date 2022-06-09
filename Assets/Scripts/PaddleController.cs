@@ -11,6 +11,7 @@ public class PaddleController : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
+        Debug.Log("Paddle speed: " + speed);
         rig = GetComponent<Rigidbody2D>();
     }
 
@@ -40,6 +41,7 @@ public class PaddleController : MonoBehaviour
 
     private void MoveObject(Vector2 movement)
     {
+        //Debug.Log("TEST: " + movement);
         rig.velocity = movement;
     }
 }
