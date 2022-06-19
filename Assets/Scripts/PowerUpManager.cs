@@ -11,7 +11,6 @@ public class PowerUpManager : MonoBehaviour
     public Vector2 powerUpAreaMin;
     public Vector2 powerUpAreaMax;
     public int spawnInterval;
-    public int destroyInterval;
     private float timer;
 
     // Start is called before the first frame update
